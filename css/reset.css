@@ -1,0 +1,12 @@
+ /*reset css*/
+ 
+ /*글씨체 설정 및 태그가 가지고 있는 기본 css 속성들을 초기화 합니다*/
+ * { margin:0; padding:0; box-sizing: border-box;}
+ ul,ol,li { list-style:none;}
+ a { text-decoration:none;}
+ img,video { vertical-align:top;}
+ table { border-collapse:collapse;}
+ input, textarea {outline: 0;}
+ input::placeholder, textarea::placeholder { color:#666; font-size:12px; font-family:Arial;}
+ .clear_fix:after { content:""; display:block; clear:both;}
+ body { line-height:1; font-family: 'Merriweather', serif; font-weight: 400; }

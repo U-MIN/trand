@@ -1,0 +1,158 @@
+/*1200px*/
+@media screen and (max-width:1200px)
+{
+/*header area*/
+.h-top {width:100%; padding:0 2%; justify-content: none;}
+.h-top .gnb li {line-height: 80px;}
+.h-top .join-btn { margin-left: 5%;}
+
+/*container area*/
+/*cont1*/
+
+.slider_view > div .cont1-wrap {width:80%; padding:0 2%;}    
+.tab>.center {width:100%; margin:0;}
+
+
+/*cont2*/
+.cont2 .center {width:100%; padding:0 2%;}
+
+
+/*cont3*/
+.cont3 .center {width:100%; padding:80px 2%;}
+
+
+.cont3 .center .cont3-bot { flex-wrap: wrap;}
+.cont3 .center .cont3-bot .cont3-wrap {width:48%; margin:0 1%;}
+.cont3 .center .cont3-bot .cont3-wrap .textbox {padding:7% 2.5%;}
+
+
+/*footer area*/
+#footer {background-color: #b3533e; padding:30px 2%;}
+.f-wrap {width:100%;}
+.f-wrap .f-top .sns a { display: inline-block; margin-right:5%; color:#fff; }
+.f-wrap .f-top, .f-wrap .f-bot { padding-right:0%;}
+
+}
+
+/*840px*/
+@media screen and (max-width:840px)
+{
+/*header area*/ 
+
+.h-top {padding:20px 2%; justify-content: space-between;}
+.h-top .logo {margin-right: 0;}
+.h-top .gnb {display: none;}
+.h-top .join-btn {margin-left: 0%;}
+
+
+.slider_view > div .cont1-wrap { display:block; width:60%; padding:0 2%;}    
+.tab_menu { margin:50px auto;}
+
+
+/*tab_list 메뉴*/
+.tab_list {padding: 0 5%;}
+.tab_list > div {display:none; }
+.tab_list .tab1 {display:block; margin: 0 auto;}
+
+.tab_list .row { justify-content:unset; flex-direction: column;}
+
+.tab_list > div .tab_wrap { 
+    width:100%; margin: 3% 0%;
+    background-color: #ffffff;
+}
+.tab_list > div .tab_wrap:hover { 
+    transform: scale(1);
+    background-color: #aa9a94;}
+
+    .tab_wrap:hover .date { color:#541203;}
+    .tab_wrap .cont {display:none;}
+
+/*footer area*/
+#footer {background-color: #b3533e; padding:30px 2%;}
+.f-wrap {width:100%;}
+.f-wrap .f-top h1 {margin-bottom: 20px;}
+.f-wrap .f-top .sns a { display: inline-block; margin-right:5%; color:#fff; }
+.f-wrap .f-bot { padding-right:1%;}
+}
+
+
+
+/*768px*/
+@media screen and (max-width:768px)
+{
+/*header area*/
+.h-top {padding:20px 5%; }
+.h-top .join-btn {display: none;}
+.h-top.on .join-btn {display: none;}
+.h-top .m-btn {display:inline-block;}
+
+
+/*container area*/
+/*cont1*/
+
+.slider_view > div .center {width:60%; padding:0 5%;}
+.slider_view > div .cont1-wrap { width:100%; display: flex; flex-wrap: wrap; justify-content: center; text-align: center;}
+.slider_view > div .cont1-wrap h2::after {margin:20px auto 0;}
+.slider_view > div .cont1-wrap p {display:none;}
+
+/*cont2*/
+.cont2 { padding:80px 3%;}
+.cont2 .center {  flex-wrap: wrap; text-align: center;}
+.cont2 .center .cont2-top {width:100%;}
+.cont2 .center .cont2-top p::before { margin:20px auto;}
+.cont2 .cont2-wrap p::before { margin:20px auto;}
+
+
+.cont2 .center .cont2-bot {flex-wrap: wrap; } 
+.cont2 .center .cont2-bot .cont2-wrap {width:100%; padding-bottom: 40px; position: relative;}
+.cont2 .cont2-bot .cont2-wrap .c-bg { margin:0 auto;
+    width:70px; height:70px; border-radius: 50%;
+    background: linear-gradient(135deg, rgba(176,78,55,1) 0%, rgba(218,155,125,1) 50%, rgba(240,202,180,1) 100%);
+}
+
+.cont2 .cont2-bot .cont2-wrap .c-bg:hover { animation:circle 0.5s infinite alternate;}
+
+@keyframes circle {
+
+    0% { transform:scale(1);}
+    100% { transform:scale(1);}
+}
+
+
+.cont2 .cont2-bot .cont2-wrap p { font-size: 14px; color:#888787; line-height: 20px;} 
+
+/*cont3*/
+.cont3 .center {padding:80px 3%; display: flex; flex-wrap: wrap; justify-content: center;}
+.cont3 .center .cont3-top {text-align: center;}
+.cont3 .cont3-top h2::after {content: ""; display: block; height:2px; width:30%; background-color: #b04e37; margin:20px auto ;}
+
+
+/*footer area*/
+#footer { padding:40px 3% 10px;}
+.f-wrap {width:100%; flex-wrap: wrap; }
+.f-wrap .f-box {width:50%; padding-right: 0%; margin-bottom: 30px;}
+.f-wrap .f-top h1 {margin-bottom: 30px;}
+
+.f-wrap .f-top .sns a { display: inline-block; margin-right:5%; color:#fff; }
+
+}
+
+/*600px*/
+@media screen and (max-width:600px)
+{
+/*cont1*/
+.cont1 {height:70vh;}
+
+/*cont3*/
+.cont3 .center .cont3-bot .cont3-wrap {width:100%; margin:0;}
+
+/*footer area*/
+#footer { padding:40px 3% 0px;}
+
+.f-wrap .f-box {width:100%; padding-right: 0%; margin-bottom: 40px;}
+.f-wrap .f-top h1 img {width:50%;}
+.f-wrap .f-top h1 {margin-bottom: 0px;}
+
+.f-wrap .f-top .sns a { display: inline-block; margin-right:5%; color:#fff; }
+.f-wrap .f-center .f-gnb li {line-height: 30px;}
+}
